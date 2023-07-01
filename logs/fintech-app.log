@@ -1,0 +1,106 @@
+2023-07-01 12:54:04.782 [INFO] [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-07-01 12:54:04.878 [INFO] [main] Starting FintechApp using Java 17.0.2 with PID 24372 (D:\workspace\projects\samples\simple-fintech-app\auth-mng\target\classes started by Kasra in D:\workspace\projects\samples\simple-fintech-app)
+2023-07-01 12:54:04.882 [INFO] [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-01 12:54:07.368 [INFO] [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-01 12:54:07.570 [INFO] [main] Finished Spring Data repository scanning in 182 ms. Found 4 JPA repository interfaces.
+2023-07-01 12:54:09.093 [INFO] [main] Tomcat initialized with port(s): 9002 (http)
+2023-07-01 12:54:09.111 [INFO] [main] Initializing ProtocolHandler ["http-nio-9002"]
+2023-07-01 12:54:09.115 [INFO] [main] Starting service [Tomcat]
+2023-07-01 12:54:09.116 [INFO] [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-01 12:54:09.313 [INFO] [main] Initializing Spring embedded WebApplicationContext
+2023-07-01 12:54:09.317 [INFO] [main] Root WebApplicationContext: initialization completed in 4336 ms
+2023-07-01 12:54:09.584 [INFO] [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-01 12:54:09.654 [INFO] [main] HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-07-01 12:54:09.658 [INFO] [main] HHH000406: Using bytecode reflection optimizer
+2023-07-01 12:54:09.885 [INFO] [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-01 12:54:10.095 [INFO] [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-01 12:54:10.127 [INFO] [main] HikariPool-1 - Starting...
+2023-07-01 12:54:10.658 [INFO] [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69069866
+2023-07-01 12:54:10.661 [INFO] [main] HikariPool-1 - Start completed.
+2023-07-01 12:54:10.721 [WARN] [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-01 12:54:11.131 [INFO] [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-01 12:54:12.367 [INFO] [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-01 12:54:12.505 [INFO] [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-01 12:54:13.643 [WARN] [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-01 12:54:15.349 [INFO] [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d0e46dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@318353, org.springframework.security.web.context.SecurityContextHolderFilter@2f1b8770, org.springframework.security.web.header.HeaderWriterFilter@18a538a0, org.springframework.security.web.authentication.logout.LogoutFilter@2e4262d2, com.snapp.pay.auth.security.JwtAuthenticationFilter@406d922, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c16cc25, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f96e484, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cd6fae8, org.springframework.security.web.session.SessionManagementFilter@24ffe853, org.springframework.security.web.access.ExceptionTranslationFilter@67c1fc9b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7fecc26f]
+2023-07-01 12:54:15.795 [INFO] [main] Starting ProtocolHandler ["http-nio-9002"]
+2023-07-01 12:54:15.833 [INFO] [main] Tomcat started on port(s): 9002 (http) with context path ''
+2023-07-01 12:54:15.847 [INFO] [main] Started FintechApp in 11.933 seconds (process running for 12.633)
+2023-07-01 12:54:19.535 [INFO] [http-nio-9002-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-01 12:54:19.536 [INFO] [http-nio-9002-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-01 12:54:19.539 [INFO] [http-nio-9002-exec-1] Completed initialization in 2 ms
+2023-07-01 12:54:19.994 [INFO] [http-nio-9002-exec-1] Login api invocation => LoginRequest(username=akbar)
+2023-07-01 12:55:50.591 [INFO] [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-01 12:55:50.593 [INFO] [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-01 12:55:50.602 [INFO] [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-01 12:55:55.427 [INFO] [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-07-01 12:55:55.500 [INFO] [main] Starting FintechApp using Java 17.0.2 with PID 21600 (D:\workspace\projects\samples\simple-fintech-app\auth-mng\target\classes started by Kasra in D:\workspace\projects\samples\simple-fintech-app)
+2023-07-01 12:55:55.502 [INFO] [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-01 12:55:57.102 [INFO] [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-01 12:55:57.243 [INFO] [main] Finished Spring Data repository scanning in 127 ms. Found 4 JPA repository interfaces.
+2023-07-01 12:55:58.460 [INFO] [main] Tomcat initialized with port(s): 9002 (http)
+2023-07-01 12:55:58.477 [INFO] [main] Initializing ProtocolHandler ["http-nio-9002"]
+2023-07-01 12:55:58.483 [INFO] [main] Starting service [Tomcat]
+2023-07-01 12:55:58.484 [INFO] [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-01 12:55:58.736 [INFO] [main] Initializing Spring embedded WebApplicationContext
+2023-07-01 12:55:58.741 [INFO] [main] Root WebApplicationContext: initialization completed in 3149 ms
+2023-07-01 12:55:59.035 [INFO] [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-01 12:55:59.138 [INFO] [main] HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-07-01 12:55:59.143 [INFO] [main] HHH000406: Using bytecode reflection optimizer
+2023-07-01 12:55:59.373 [INFO] [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-01 12:55:59.630 [INFO] [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-01 12:55:59.660 [INFO] [main] HikariPool-1 - Starting...
+2023-07-01 12:56:00.251 [INFO] [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b7b0b57
+2023-07-01 12:56:00.255 [INFO] [main] HikariPool-1 - Start completed.
+2023-07-01 12:56:00.333 [WARN] [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-01 12:56:00.824 [INFO] [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-01 12:56:01.902 [INFO] [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-01 12:56:02.029 [INFO] [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-01 12:56:03.054 [WARN] [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-01 12:56:04.773 [INFO] [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@444720b7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@529fda9f, org.springframework.security.web.context.SecurityContextHolderFilter@24ffe853, org.springframework.security.web.header.HeaderWriterFilter@2f08e6d3, org.springframework.security.web.authentication.logout.LogoutFilter@48064a5a, com.snapp.pay.auth.security.JwtAuthenticationFilter@57a0aeb8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22d23c27, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f1b8770, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b8f5aa4, org.springframework.security.web.session.SessionManagementFilter@771b2b5b, org.springframework.security.web.access.ExceptionTranslationFilter@5dfd4fac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@493ed8e6]
+2023-07-01 12:56:05.398 [INFO] [main] Starting ProtocolHandler ["http-nio-9002"]
+2023-07-01 12:56:05.468 [INFO] [main] Tomcat started on port(s): 9002 (http) with context path ''
+2023-07-01 12:56:05.487 [INFO] [main] Started FintechApp in 10.894 seconds (process running for 11.579)
+2023-07-01 12:56:10.552 [INFO] [http-nio-9002-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-01 12:56:10.553 [INFO] [http-nio-9002-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-07-01 12:56:10.556 [INFO] [http-nio-9002-exec-2] Completed initialization in 2 ms
+2023-07-01 12:56:10.836 [INFO] [http-nio-9002-exec-2] Login api invocation => LoginRequest(username=akbar)
+2023-07-01 12:56:11.841 [INFO] [http-nio-9002-exec-2] User akbar logged in successfully
+2023-07-01 12:56:49.779 [INFO] [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-01 12:56:49.782 [INFO] [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-01 12:56:49.794 [INFO] [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-07-01 13:30:31.344 [INFO] [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-07-01 13:30:31.399 [INFO] [main] Starting FintechApp using Java 17.0.2 with PID 26008 (D:\workspace\projects\samples\simple-fintech-app\auth-mng\target\classes started by Kasra in D:\workspace\projects\samples\simple-fintech-app)
+2023-07-01 13:30:31.400 [INFO] [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-01 13:30:32.292 [INFO] [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-01 13:30:32.382 [INFO] [main] Finished Spring Data repository scanning in 81 ms. Found 4 JPA repository interfaces.
+2023-07-01 13:30:33.125 [INFO] [main] Tomcat initialized with port(s): 9002 (http)
+2023-07-01 13:30:33.137 [INFO] [main] Initializing ProtocolHandler ["http-nio-9002"]
+2023-07-01 13:30:33.141 [INFO] [main] Starting service [Tomcat]
+2023-07-01 13:30:33.141 [INFO] [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-01 13:30:33.285 [INFO] [main] Initializing Spring embedded WebApplicationContext
+2023-07-01 13:30:33.286 [INFO] [main] Root WebApplicationContext: initialization completed in 1829 ms
+2023-07-01 13:30:33.528 [INFO] [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-01 13:30:33.584 [INFO] [main] HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-07-01 13:30:33.587 [INFO] [main] HHH000406: Using bytecode reflection optimizer
+2023-07-01 13:30:33.725 [INFO] [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-01 13:30:33.860 [INFO] [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-01 13:30:33.880 [INFO] [main] HikariPool-1 - Starting...
+2023-07-01 13:30:34.189 [INFO] [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dcbbb49
+2023-07-01 13:30:34.191 [INFO] [main] HikariPool-1 - Start completed.
+2023-07-01 13:30:34.235 [WARN] [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-01 13:30:34.510 [INFO] [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-01 13:30:35.216 [INFO] [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-01 13:30:35.313 [INFO] [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-01 13:30:36.025 [WARN] [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-01 13:30:36.886 [INFO] [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@493ed8e6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b897456, org.springframework.security.web.context.SecurityContextHolderFilter@2044f708, org.springframework.security.web.header.HeaderWriterFilter@696a6506, org.springframework.security.web.authentication.logout.LogoutFilter@3c89fdd8, com.snapp.pay.auth.security.JwtAuthenticationFilter@27adb90f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18bab95b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70e07ef8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4dcc0e3d, org.springframework.security.web.session.SessionManagementFilter@183e64a8, org.springframework.security.web.access.ExceptionTranslationFilter@2862bac6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7104b117]
+2023-07-01 13:30:37.190 [INFO] [main] Starting ProtocolHandler ["http-nio-9002"]
+2023-07-01 13:30:37.215 [INFO] [main] Tomcat started on port(s): 9002 (http) with context path ''
+2023-07-01 13:30:37.227 [INFO] [main] Started FintechApp in 6.414 seconds (process running for 6.97)
+2023-07-01 13:31:05.709 [INFO] [http-nio-9002-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-01 13:31:05.709 [INFO] [http-nio-9002-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-01 13:31:05.710 [INFO] [http-nio-9002-exec-1] Completed initialization in 1 ms
+2023-07-01 13:31:06.592 [INFO] [http-nio-9002-exec-10] Init duration for springdoc-openapi is: 341 ms
+2023-07-01 13:52:17.099 [INFO] [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-01 13:52:17.101 [INFO] [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-07-01 13:52:17.115 [INFO] [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
